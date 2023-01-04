@@ -1,0 +1,16 @@
+.intro-container {
+    display: flex;
+    align-items: center;
+
+    margin-top: 2vh;
+}
+
+.logo-img {
+    width: 20%;
+    height: 20%;
+    margin-right: .5rem;
+}
+
+ul {
+    margin-left: 6vw;
+}

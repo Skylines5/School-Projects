@@ -1,0 +1,111 @@
+
+:root {
+  --light-pink: #fc6dfc;
+  --darker-pink: #c04198;
+  --dark-blue: rgb(0,51,102);
+}
+
+
+
+/*  ----  Basic css reset  ---- */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+
+
+/*  --- my css styles --- */
+
+.intro-h1 {
+  text-align: center;
+}
+
+h1 {
+  color: var(--light-pink);
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 1vh;
+  border-bottom: 2px solid var(--dark-blue);
+}
+
+h2 {
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  color: var(--light-pink);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h2:target {
+	background: yellow;
+}
+
+section {
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+/* navbar */
+.navbar {
+    height: 5vh;
+    background-color: var(--light-pink);
+    width: 100%;
+}
+
+.navicon {
+    vertical-align: middle;
+    height: 40px;
+    width: 40px; 
+}
+
+#ul {
+    display: none;
+    position: absolute;
+    width: 30%;
+    margin-top: .2vh;
+    margin-left: 1.5vw;
+    background-color: var(--light-pink);
+
+    background-image: linear-gradient(var(--light-pink), grey);
+}
+
+#ul > a {
+    text-decoration: none;
+    color: white;
+}
+
+#ul a li {
+  margin-left: 4vw;
+  margin-bottom: 2vh;
+  padding: 10px;
+  list-style: none;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  width: 100%;
+  margin-top: 1.5vh;
+  background-color: var(--light-pink);
+  color: white;
+}
