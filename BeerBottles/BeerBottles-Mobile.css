@@ -1,0 +1,11 @@
+td img {
+    height: 975px;
+    width: 35%;
+    /* height: max-content;
+    width: max-content; */
+}
+
+.smaller-beerBottle-img {
+    height: 400px;
+    width: 35%;
+}

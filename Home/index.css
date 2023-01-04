@@ -1,0 +1,48 @@
+
+/* Home text */
+.caption > h1 {
+    font-size: 2em;
+}
+
+.caption > h2 {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+.caption > h2 > a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+
+/* table */
+.table-content img {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(58, 57, 57);
+
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 6vh;
+}
+
+.table-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+
+    border-collapse: separate;
+    /* border-spacing: 4vw 10vh; */
+}
+
+.table-content td {
+    text-align: center;
+}
+
+.table-content, img,  p {
+    font-size: 1.5rem;
+}
+

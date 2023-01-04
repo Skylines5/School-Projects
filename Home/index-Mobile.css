@@ -1,0 +1,13 @@
+
+.home-intro-text {
+    text-align: center;
+}
+
+.main-img {
+    box-shadow: none;
+    margin-top: .5vh;
+}
+
+tr td {
+    background-color: var(--background-grey);
+}

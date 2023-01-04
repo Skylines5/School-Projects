@@ -1,0 +1,26 @@
+
+.table-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+
+    border-collapse: separate;
+    /* border-spacing: 4vw 10vh; */
+}
+
+.table-content img {
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(58, 57, 57);
+
+    margin-left: 11vw;
+    margin-right: 11vw;
+    margin-top: 6vh;
+}
+
+.table-content td {
+    text-align: center;
+}
+
+.table-content, img,  p {
+    font-size: 1.5rem;
+}

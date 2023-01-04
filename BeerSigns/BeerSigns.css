@@ -1,0 +1,32 @@
+
+.table-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+
+    border-collapse: separate;
+}
+
+.table-content img {
+    border-radius: 5%;
+    box-shadow: 5px 5px rgb(58, 57, 57);
+
+    margin-top: 6vh;
+
+    width: 300px;
+    height: 300px;
+}
+
+.table-content td {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table-content, img,  p {
+    font-size: 1.5rem;
+}
+
+.table-content td {
+    width: 25%;
+}
